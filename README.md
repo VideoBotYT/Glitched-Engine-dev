@@ -1,5 +1,5 @@
 # FNF-Glitched Engine
-To build the Glitched-Engine you need all PsychEngine libraries.
+To build the Glitched-Engine you need all PsychEngine libraries and flxanimate.
 
 ## Installation:
 You must have [Haxe](https://haxe.org/download/), installed in order to move on to these next steps
