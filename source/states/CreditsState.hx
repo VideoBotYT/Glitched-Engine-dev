@@ -45,7 +45,7 @@ class CreditsState extends MusicBeatState
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['FNF Glitched-Engine'],
-			['VideoBot',		'videobot',		'Main Founder-Creator of Glitched-Engine',								'https://ko-fi.com/shadowmario',		'444444'],
+			['VideoBot',		'videobot',		'Main Founder-Creator of Glitched-Engine',								'https://www.youtube.com/channel/UC7Q9YHqBdroWwyPfSp8_yhA',		'444444'],
 			['TechDev',		'shadowmario',		'Main Programmer of Glitched-Engine',								'https://ko-fi.com/shadowmario',		'444444'],
 			[''],
 			['Former Psych Engine Members'],
