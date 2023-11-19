@@ -23,11 +23,6 @@ local avgAccuracy = 0
 
 local countedNumValue = 0
 
-function onCreate()
-    luaDebugMode = debug
-    setPropertyFromClass('states.PlayState', 'chartingMode', debug)
-end
-
 function onCustomSubstateCreatePost(name)
     if name == 'results' then
         setProperty('strumLineNotes.visible', false)
