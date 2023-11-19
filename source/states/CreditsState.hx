@@ -44,10 +44,11 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['FNF In Da Tractor World'],
-			['TechDeveloper',		'shadowmario',		'Main Programmer - Charter of FNF In Da Tractor',								'https://ko-fi.com/shadowmario',		'444444'],
+			['FNF Glitched-Engine'],
+			['VideoBot',		'shadowmario',		'Main Founder-Creator of Glitched-Engine',								'https://ko-fi.com/shadowmario',		'444444'],
+			['TechDev',		'shadowmario',		'Main Programmer of Glitched-Engine',								'https://ko-fi.com/shadowmario',		'444444'],
 			[''],
-			['Former Engine Members'],
+			['Former Psych Engine Members'],
 			['bb-panzu',			'bb',				'Ex-Programmer of Psych Engine',								'https://twitter.com/bbsub3',			'3E813A'],
 			['shubs',				'',					'Ex-Programmer of Psych Engine\nI don\'t support them.',		'',										'A1A1A1'],
 			[''],
@@ -55,11 +56,11 @@ class CreditsState extends MusicBeatState
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://ko-fi.com/shadowmario',		'444444'],
 			['Riveren',				'riveren',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/riverennn',		'14967B'],
 			[''],
-			['Former Engine Members'],
+			['Former Psych Engine Members'],
 			['bb-panzu',			'bb',				'Ex-Programmer of Psych Engine',								'https://twitter.com/bbsub3',			'3E813A'],
 			['shubs',				'',					'Ex-Programmer of Psych Engine\nI don\'t support them.',		'',										'A1A1A1'],
 			[''],
-			['Engine Contributors'],
+			['Psych Engine Contributors'],
 			['iFlicky',				'flicky',			'Composer of Psync and Tea Time\nMade the Dialogue Sounds',		'https://twitter.com/flicky_i',			'9E29CF'],
 			['SqirraRNG',			'sqirra',			'Crash Handler and Base code for\nChart Editor\'s Waveform',	'https://twitter.com/gedehari',			'E1843A'],
 			['EliteMasterEric',		'mastereric',		'Runtime Shaders support',										'https://twitter.com/EliteMasterEric',	'FFBD40'],
