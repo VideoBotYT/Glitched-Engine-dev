@@ -37,12 +37,18 @@ to start you off, disabling Videos should be simple, simply Delete the line `"VI
 
 same goes for *Lua Scripts*, comment out or delete the line with `LUA_ALLOWED`, this and other customization options are all available within the `Project.xml` file
 
-## Credits:
+## Glitched-Engine Credits:
+* VideoBot - Founder - Creator of Glitched-Engine
+* TechDevOfficial - Programmer of Glitched-Engine
+* Miawma0 - Artist of Glitched-Engine
+* andrew14boi - Musician - Song Maker of Glitched-Engine
+
+## Psych Engine Credits:
 * Shadow Mario - Programmer
 * RiverOaken - Artist
 * Yoshubs - Assistant Programmer
 
-### Special Thanks
+### Psych Engine Special Thanks
 * bbpanzu - Ex-Programmer
 * Yoshubs - New Input System
 * SqirraRNG - Crash Handler and Base code for Chart Editor's Waveform
