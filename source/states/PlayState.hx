@@ -11,9 +11,11 @@ package states;
 // "function triggerEvent" - Called when the song hits your event's timestamp, this is probably what you were looking for
 
 import backend.Highscore;
+import backend.CoolUtil;
 import backend.StageData;
 import backend.WeekData;
 import backend.Song;
+import backend.Difficulty;
 import backend.Section;
 import backend.Rating;
 
@@ -36,6 +38,7 @@ import cutscenes.CutsceneHandler;
 import cutscenes.DialogueBoxPsych;
 
 import states.StoryMenuState;
+import states.MainMenuState;
 import states.FreeplayState;
 import states.editors.ChartingState;
 import states.editors.CharacterEditorState;
@@ -563,7 +566,7 @@ class PlayState extends MusicBeatState
 		if(ClientPrefs.data.downScroll)
 			botplayTxt.y = timeBar.y - 78;
 
-		var versionTxt:FlxText = new FlxText(4, FlxG.height - 24, 0, "FNF Glitched Engine v0.0.2", 12);
+		var versionTxt:FlxText = new FlxText(4, FlxG.height - 24, 0, '${SONG.song} - ${Difficulty.getString()} | Glitched-Engine v${MainMenuState.glitchedEngineVersion}', 12);
 		versionTxt.scrollFactor.set();
 		versionTxt.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionTxt);
