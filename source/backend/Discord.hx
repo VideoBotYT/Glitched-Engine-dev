@@ -14,7 +14,7 @@ class DiscordClient
 		details: "In the Menus",
 		state: null,
 		largeImageKey: 'icon',
-		largeImageText: "Glitched-Engine",
+		largeImageText: null,
 		smallImageKey : null,
 		startTimestamp : null,
 		endTimestamp : null

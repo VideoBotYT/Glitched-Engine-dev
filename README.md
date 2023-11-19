@@ -1,5 +1,6 @@
 # FNF-Glitched Engine
 To build the Glitched-Engine you need all PsychEngine libraries and flxanimate.
+To install flxanimate run this in your cmd/powershell: `haxelib install flxanimate`
 
 ## Installation:
 You must have [Haxe](https://haxe.org/download/), installed in order to move on to these next steps

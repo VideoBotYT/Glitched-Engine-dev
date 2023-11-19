@@ -15,6 +15,7 @@ import backend.CoolUtil;
 import backend.StageData;
 import backend.WeekData;
 import backend.Song;
+import backend.Discord;
 import backend.Difficulty;
 import backend.Section;
 import backend.Rating;
