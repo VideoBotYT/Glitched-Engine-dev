@@ -587,12 +587,24 @@ class TitleState extends MusicBeatState
 				case 13:
 					deleteCoolText();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('FNF');
 				case 15:
-					addMoreText('Night');
+					addMoreText('Glitched');
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
-                case 17:
+					addMoreText('Engine'); // credTextShit.text += '\nFunkin';
+				case 17:
+					addMoreText('By'); // credTextShit.text += '\nFunkin';
+				case 18:
+					deleteCoolText();
+				case 19:
+					createCoolText('TechDev'); // credTextShit.text += '\nFunkin';
+				case 20:
+					addMoreText('VideoBot'); // credTextShit.text += '\nFunkin';
+				case 21:
+					addMoreText('MiawMia0'); // credTextShit.text += '\nFunkin';
+				case 22:
+					addMoreText('andrew04'); // credTextShit.text += '\nFunkin';	
+                case 25:
 					skipIntro();
 			}
 		}

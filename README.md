@@ -1,5 +1,6 @@
 # FNF-Glitched Engine
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders. Like Friday Night Funkin Psych Engine
+To build the Glitched-Engine you need all PsychEngine libraries. To build GlitchedEngine you need a new library, run this in cmd or powershell:
+`haxelib install flxanimation`
 
 ## Installation:
 You must have [Haxe](https://haxe.org/download/), installed in order to move on to these next steps
@@ -36,12 +37,18 @@ to start you off, disabling Videos should be simple, simply Delete the line `"VI
 
 same goes for *Lua Scripts*, comment out or delete the line with `LUA_ALLOWED`, this and other customization options are all available within the `Project.xml` file
 
-## Credits:
+## Glitched-Engine Credits:
+* VideoBot - Founder - Creator of Glitched-Engine
+* TechDevOfficial - Programmer of Glitched-Engine
+* Miawma0 - Artist of Glitched-Engine
+* andrew14boi - Musician - Song Maker of Glitched-Engine
+
+## Psych Engine Credits:
 * Shadow Mario - Programmer
 * RiverOaken - Artist
 * Yoshubs - Assistant Programmer
 
-### Special Thanks
+### Psych Engine Special Thanks
 * bbpanzu - Ex-Programmer
 * Yoshubs - New Input System
 * SqirraRNG - Crash Handler and Base code for Chart Editor's Waveform
