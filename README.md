@@ -1,5 +1,6 @@
 # FNF-Glitched Engine
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders. Like Friday Night Funkin Psych Engine
+To buils the engine you need all PsychEngine libraries. To build GlitchedEngine you need a new library, run this in cmd or powershell:
+`haxelib install flxanimation`
 
 ## Installation:
 You must have [Haxe](https://haxe.org/download/), installed in order to move on to these next steps
