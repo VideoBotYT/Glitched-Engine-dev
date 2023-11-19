@@ -87,6 +87,7 @@ class FPS extends TextField
 			#if openfl
 			memoryMegas = Math.abs(FlxMath.roundDecimal(System.totalMemory / 1000000, 1));
 			text += "\nMemory: " + memoryMegas + " MB";
+			text += "\nloaded GlitchedEngine 0.0.2;
 			#end
 
 			textColor = 0xFFFFFFFF;
