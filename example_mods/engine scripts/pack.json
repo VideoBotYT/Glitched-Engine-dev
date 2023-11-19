@@ -1,0 +1,9 @@
+{
+	"name": "engine files",
+	"description": "these are some files that are required for this engine don't turn this mod off",
+	"restart":false,
+	"runsGlobally": true,
+	"color": [2255, 255, 255],
+	"discordRPC": "863222024192262205",
+	"iconFramerate": 10
+}
