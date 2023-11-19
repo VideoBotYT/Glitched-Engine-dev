@@ -597,7 +597,7 @@ class TitleState extends MusicBeatState
 				case 18:
 					deleteCoolText();
 				case 19:
-					createCoolText(['VideoBot'], 40);
+					createCoolText(['VideoBot']);
 				case 20:
 					addMoreText('TechDev'); // credTextShit.text += '\nFunkin';
 				case 21:
